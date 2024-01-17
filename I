@@ -1,0 +1,423 @@
+local CKSKIDPUBLICV1 = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local TItle2 = Instance.new("TextLabel")
+local CKSPAM = Instance.new("TextButton")
+local CKSKY = Instance.new("TextButton")
+local Input = Instance.new("TextBox")
+local DUCKIFY = Instance.new("TextButton")
+local FIREALL = Instance.new("TextButton")
+local K00PKIDDSKY = Instance.new("TextButton")
+local SOON = Instance.new("TextButton")
+local SOON = Instance.new("TextButton")
+local SOON = Instance.new("TextButton")
+local SOON = Instance.new("TextButton")
+
+--Properties:
+
+CMDS.Name = "CKSKIDPUBLICV1"
+CMDS.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+CMDS.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = CKSKIDPUBLICV1
+Frame.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Frame.BackgroundTransparency = 0.100
+Frame.Position = UDim2.new(0.277016729, 0, 0.203703701, 0)
+Frame.Size = UDim2.new(0, 660, 0, 378)
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.276334137, 0, 0.0357142873, 0)
+Title.Size = UDim2.new(0, 294, 0, 61)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "CKSKIDPUBLICV1"
+Title.TextColor3 = Color3.fromRGB(255, 0, 0)
+Title.TextSize = 50.000
+Title.TextWrapped = true
+
+TItle2.Name = "TItle2"
+TItle2.Parent = Frame
+TItle2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TItle2.BackgroundTransparency = 1.000
+TItle2.Position = UDim2.new(0.198960528, 0, 0.130832121, 0)
+TItle2.Size = UDim2.new(0, 395, 0, 61)
+TItle2.Font = Enum.Font.SourceSansBold
+TItle2.Text = "THIS GUI IS PUBLIC THIS GUI IS MADE FOR F3X GAMES"
+TItle2.TextColor3 = Color3.fromRGB(148, 255, 7)
+TItle2.TextSize = 20.000
+TItle2.TextWrapped = true
+
+Fly.Name = "CKSPAM"
+Fly.Parent = Frame
+Fly.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
+Fly.BorderColor3 = Color3.fromRGB(157, 14, 14)
+Fly.BorderSizePixel = 8
+Fly.Position = UDim2.new(0.0772533044, 0, 0.31601727, 0)
+Fly.Size = UDim2.new(0, 138, 0, 42)
+Fly.Font = Enum.Font.SourceSansBold
+Fly.Text = "Fly [E]"
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextSize = 30.000
+
+Walkspeed.Name = "CKSKY"
+Walkspeed.Parent = Frame
+Walkspeed.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
+Walkspeed.BorderColor3 = Color3.fromRGB(157, 14, 14)
+Walkspeed.BorderSizePixel = 8
+Walkspeed.Position = UDim2.new(0.392404824, 0, 0.31601727, 0)
+Walkspeed.Size = UDim2.new(0, 144, 0, 42)
+Walkspeed.Font = Enum.Font.SourceSansBold
+Walkspeed.Text = "Walkspeed"
+Walkspeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Walkspeed.TextSize = 30.000
+
+Input.Name = "Input"
+Input.Parent = Frame
+Input.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+Input.BackgroundTransparency = 0.300
+Input.Position = UDim2.new(0, 0, 0.931216955, 0)
+Input.Size = UDim2.new(0, 660, 0, 26)
+Input.Font = Enum.Font.SourceSansBold
+Input.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Input.Text = "Input"
+Input.TextColor3 = Color3.fromRGB(255, 255, 255)
+Input.TextSize = 20.000
+
+Jumppower.Name = "DUCKIFY"
+Jumppower.Parent = Frame
+Jumppower.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
+Jumppower.BorderColor3 = Color3.fromRGB(157, 14, 14)
+Jumppower.BorderSizePixel = 8
+Jumppower.Position = UDim2.new(0.721192718, 0, 0.31601727, 0)
+Jumppower.Size = UDim2.new(0, 138, 0, 42)
+Jumppower.Font = Enum.Font.SourceSansBold
+Jumppower.Text = "Jumppower"
+Jumppower.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jumppower.TextSize = 30.000
+
+HomebrewAdmin.Name = "K00PKIDDSPAM"
+HomebrewAdmin.Parent = Frame
+HomebrewAdmin.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
+HomebrewAdmin.BorderColor3 = Color3.fromRGB(157, 14, 14)
+HomebrewAdmin.BorderSizePixel = 8
+HomebrewAdmin.Position = UDim2.new(0.721192718, 0, 0.514429986, 0)
+HomebrewAdmin.Size = UDim2.new(0, 138, 0, 42)
+HomebrewAdmin.Font = Enum.Font.SourceSansBold
+HomebrewAdmin.Text = "Admin"
+HomebrewAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+HomebrewAdmin.TextSize = 30.000
+
+Suicide.Name = "FIREALL"
+Suicide.Parent = Frame
+Suicide.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
+Suicide.BorderColor3 = Color3.fromRGB(157, 14, 14)
+Suicide.BorderSizePixel = 8
+Suicide.Position = UDim2.new(0.392404824, 0, 0.514429986, 0)
+Suicide.Size = UDim2.new(0, 144, 0, 42)
+Suicide.Font = Enum.Font.SourceSansBold
+Suicide.Text = "Suicide"
+Suicide.TextColor3 = Color3.fromRGB(255, 255, 255)
+Suicide.TextSize = 30.000
+
+Zombie.Name = "K00PKIDDSKY"
+Zombie.Parent = Frame
+Zombie.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
+Zombie.BorderColor3 = Color3.fromRGB(157, 14, 14)
+Zombie.BorderSizePixel = 8
+Zombie.Position = UDim2.new(0.0772533044, 0, 0.514429986, 0)
+Zombie.Size = UDim2.new(0, 138, 0, 42)
+Zombie.Font = Enum.Font.SourceSansBold
+Zombie.Text = "Zombie"
+Zombie.TextColor3 = Color3.fromRGB(255, 255, 255)
+Zombie.TextSize = 30.000
+
+LaserArm.Name = "SOON"
+LaserArm.Parent = Frame
+LaserArm.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
+LaserArm.BorderColor3 = Color3.fromRGB(157, 14, 14)
+LaserArm.BorderSizePixel = 8
+LaserArm.Position = UDim2.new(0.721192718, 0, 0.712842703, 0)
+LaserArm.Size = UDim2.new(0, 138, 0, 42)
+LaserArm.Font = Enum.Font.SourceSansBold
+LaserArm.Text = "Laser Arm"
+LaserArm.TextColor3 = Color3.fromRGB(255, 255, 255)
+LaserArm.TextSize = 30.000
+
+Btools.Name = "SOON"
+Btools.Parent = Frame
+Btools.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
+Btools.BorderColor3 = Color3.fromRGB(157, 14, 14)
+Btools.BorderSizePixel = 8
+Btools.Position = UDim2.new(0.392404824, 0, 0.712842703, 0)
+Btools.Size = UDim2.new(0, 144, 0, 42)
+Btools.Font = Enum.Font.SourceSansBold
+Btools.Text = "BTools"
+Btools.TextColor3 = Color3.fromRGB(255, 255, 255)
+Btools.TextSize = 30.000
+
+c00lgui.Name = "SOON"
+c00lgui.Parent = Frame
+c00lgui.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
+c00lgui.BorderColor3 = Color3.fromRGB(157, 14, 14)
+c00lgui.BorderSizePixel = 8
+c00lgui.Position = UDim2.new(0.0772533044, 0, 0.712842703, 0)
+c00lgui.Size = UDim2.new(0, 138, 0, 42)
+c00lgui.Font = Enum.Font.SourceSansBold
+c00lgui.Text = "c00lgui"
+c00lgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+c00lgui.TextSize = 30.000
+
+-- Scripts:
+
+local function XLPT_fake_script() -- CKSPAM.LocalScript 
+	local script = Instance.new('LocalScript',CKSPAM)
+	script.Parent.decalspam.MouseButton1Click:Connect(function()
+		local febypass = loader.load_febypass()
+		local function spam(id)
+			for i,v in game.workspace:GetDescendants() do
+				if v:IsA("BasePart") then
+					spawn(function()
+						febypass.SetLocked(v,false)
+						febypass.SpawnDecal(v,Enum.NormalId.Front)
+						febypass.AddDecal(v,id,Enum.NormalId.Front)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Back)
+						febypass.AddDecal(v,id,Enum.NormalId.Back)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Right)
+						febypass.AddDecal(v,id,Enum.NormalId.Right)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Left)
+						febypass.AddDecal(v,id,Enum.NormalId.Left)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Bottom)
+						febypass.AddDecal(v,id,Enum.NormalId.Bottom)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Top)
+						febypass.AddDecal(v,id,Enum.NormalId.Top)
+					end)
+				end
+			end 
+		end
+		spam("14860138991")
+	end)
+	
+	
+	script.Parent.CKSKY.MouseButton1Click:Connect(function()
+		local febypass = loader.load_febypass()
+		local function Sky(id)
+			local char = game.Players.LocalPlayer.Character
+			local e = char.HumanoidRootPart.CFrame.x
+			local f = char.HumanoidRootPart.CFrame.y
+			local g = char.HumanoidRootPart.CFrame.z
+			febypass.CreatePart(CFrame.new(math.floor(e),math.floor(f),math.floor(g)) + Vector3.new(0,6,0),workspace)
+			for i,v in game.Workspace:GetDescendants() do
+				if v:IsA("BasePart") and v.CFrame.x == math.floor(e) and v.CFrame.z == math.floor(g) then
+					--spawn(function()
+					febypass.SetName(v,"Sky")
+					febypass.AddMesh(v)
+					--end)
+					--spawn(function()
+					febypass.SetMesh(v,"8006679977")
+					febypass.SetTexture(v,id)
+					--end)
+					febypass.MeshResize(v,Vector3.new(830,830,830))
+					febypass.SetLocked(v,true)
+				end
+			end
+		end
+		Sky("14860138991")
+	end)
+	
+	script.Parent.DUCKIFY.MouseButton1Click:Connect(function()
+		local febypass = loader.load_febypass()
+		local function Duckify(player)
+			for i,v in player.Character:GetDescendants() do
+				if v:IsA("BasePart") then
+					pcall(function()
+						febypass.SetLocked(v,false)
+						febypass.SetTrans(v,1)
+					end)
+				end
+			end
+			local char = player.Character
+			--spawn(function()
+			spawn(function()
+				febypass.SetAnchor(true,char.HumanoidRootPart)
+				febypass.CreatePart(char.HumanoidRootPart.CFrame,char)
+				febypass.SetCollision(char.Part,false)
+				febypass.SetName(char.Part, "Duck")
+			end)
+			repeat wait() until char:FindFirstChild("Duck")
+			spawn(function()
+				febypass.SetLocked(char.Duck,false)
+				febypass.SetLocked(char.HumanoidRootPart,false)
+				febypass.Weld(char.Duck,char.HumanoidRootPart,char.Duck)
+				febypass.SetAnchor(false,char.Duck)
+				febypass.AddMesh(char.Duck)
+			end)
+			repeat wait() until char.Duck:FindFirstChild("Mesh")
+			febypass.MeshResize(char.Duck,Vector3.new(8,8,8))
+			febypass.SetMesh(char.Duck,"10749878672")
+			febypass.SetTexture(char.Duck,"10749878886")
+			febypass.SetAnchor(false,char.HumanoidRootPart)
+			--end)
+		end
+		for i,v in game.Players:GetPlayers() do
+			--spawn(function()
+			Duckify(v)
+			--end)
+		end
+	end)
+	
+local function XLPT_fake_script() -- CKSPAM.LocalScript 
+	local script = Instance.new('LocalScript',CKSPAM)
+	script.Parent.decalspam.MouseButton1Click:Connect(function()
+		local febypass = loader.load_febypass()
+		local function spam(id)
+			for i,v in game.workspace:GetDescendants() do
+				if v:IsA("BasePart") then
+					spawn(function()
+						febypass.SetLocked(v,false)
+						febypass.SpawnDecal(v,Enum.NormalId.Front)
+						febypass.AddDecal(v,id,Enum.NormalId.Front)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Back)
+						febypass.AddDecal(v,id,Enum.NormalId.Back)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Right)
+						febypass.AddDecal(v,id,Enum.NormalId.Right)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Left)
+						febypass.AddDecal(v,id,Enum.NormalId.Left)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Bottom)
+						febypass.AddDecal(v,id,Enum.NormalId.Bottom)
+	
+						febypass.SpawnDecal(v,Enum.NormalId.Top)
+						febypass.AddDecal(v,id,Enum.NormalId.Top)
+					end)
+				end
+			end 
+		end
+		spam("15804818773")
+	end)
+	
+	script.Parent.FIREALL.MouseButton1Click:Connect(function()
+		local febypass = loader.load_febypass()
+		local function AddFire(part)
+			local args = {
+				[1] = "CreateDecorations",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["DecorationType"] = "Fire"
+					}
+				}
+			}
+			febypass.remoteExecute(args)
+		end
+		local function Fire(player)
+			for i,v in player.Character:GetDescendants() do
+				if v:IsA("BasePart") then
+					AddFire(v)
+				end
+			end
+		end
+	
+		for i,v in game.Players:GetPlayers() do
+			spawn(function()
+				pcall(function()
+					Fire(v)
+				end)
+			end)
+		end
+	end)
+	
+	script.Parent.K00PKIDDSKY.MouseButton1Click:Connect(function()
+		local febypass = loader.load_febypass()
+		local function Sky(id)
+			local char = game.Players.LocalPlayer.Character
+			local e = char.HumanoidRootPart.CFrame.x
+			local f = char.HumanoidRootPart.CFrame.y
+			local g = char.HumanoidRootPart.CFrame.z
+			febypass.CreatePart(CFrame.new(math.floor(e),math.floor(f),math.floor(g)) + Vector3.new(0,6,0),workspace)
+			for i,v in game.Workspace:GetDescendants() do
+				if v:IsA("BasePart") and v.CFrame.x == math.floor(e) and v.CFrame.z == math.floor(g) then
+					--spawn(function()
+					febypass.SetName(v,"Sky")
+					febypass.AddMesh(v)
+					--end)
+					--spawn(function()
+					febypass.SetMesh(v,"8006679977")
+					febypass.SetTexture(v,id)
+					--end)
+					febypass.MeshResize(v,Vector3.new(830,830,830))
+					febypass.SetLocked(v,true)
+				end
+			end
+		end
+		Sky("15804818773")
+	end)
+coroutine.wrap(SJWUJQ_fake_script)()
+local function QJGO_fake_script() -- Frame.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+
+coroutine.wrap(DEVR_fake_script)()
